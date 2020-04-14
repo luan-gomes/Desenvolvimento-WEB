@@ -105,7 +105,7 @@ body{
     width: 100%;
     padding: 25px 0px 10px 0px;
     border-bottom: 1px solid #d9dadc;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 #logo-login{
@@ -118,9 +118,9 @@ body{
 #container-login-content{
     display: block;
     height: 645.188px;
-    width: 450;
-    margin-right: 434.500px;
-    margin-left: 434.500px;
+    width: 450px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 h4{
@@ -138,6 +138,7 @@ h4{
     font-family: Circular, Helvetica, sans-serif, IosFix;
     border: 0px;
     color:#ffffff;
+    cursor: pointer;
 }
 
 .btn-blue{
@@ -147,4 +148,217 @@ h4{
 
 .btn-black{
     background-color: #000000;
+}
+
+#divider{
+    height: 2px;
+    width: 450px;
+    border-top: 1px solid #d9dadc;
+    margin: 25px 0px;
+    line-height: 1px;
+    text-align: center;
+}
+
+#divider #divider-title{
+    background-color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+.login-input{
+    width: 424px;
+    height: 26px;
+    padding: 6px 12px;
+    border: 1px solid #d9dadc;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#getin{
+    height: 70px;
+}
+
+.containercheck{
+	width:200px;
+	top:30px;
+	display:block;
+	position:relative;
+	padding-left:28px;
+	margin-bottom:12px;
+	cursor:pointer;
+	font-size:16px;
+	font-family:sans-serif;
+	color: #919496;
+    font-weight: 400;
+}
+.containercheck input{
+	position:absolute;
+	opacity:0;
+	cursor:pointer;	
+}
+.check{
+	left:0;
+	top:-2px;
+	position:absolute;
+	background-color: #fff;
+    border: 1px solid #c1c3c6;
+    width: 1.25em;
+    height: 1.25em;
+	border-radius:5px;
+}
+.containercheck input:checked ~ .check{
+	background:#1db954;
+}
+.containercheck .check:after{
+	top:3px;
+	left:6px;
+	transform: translate(-50%,-50%);
+	width:5px;
+	height:10px;
+	border: solid white ;
+	border-width: 0 2px 2px 0;
+	-webkit-transform:rotate(30deg);
+	-ms-transform:rotate(30deg);
+	transform: rotate(30deg);
+	
+}
+.check:after{
+	content:"";
+	position:absolute;
+	display:none;
+}
+.containercheck input:checked ~ .check:after{
+	display:block;
+}
+
+#btn-login-entrar{
+
+	width:110px;
+	height:14px;
+	bottom:15px;
+	font-size: 14px;
+	text-transform: uppercase;
+	color:white;
+	letter-spacing: 2px;
+    border-radius: 500px;
+    padding: 16px 48px 18px;
+	padding-top:14px;
+	cursor: pointer;
+	font-family:sans-serif;
+	border: 1px solid transparent;
+	position:relative;
+	background-color:#1db954;
+    text-align:center;
+    float:right;
+}
+
+#container-login-reset-pass{
+    width: 450px;
+    text-align: center;
+}
+
+#reset-password{
+    text-decoration: none;
+    color: #1db954;
+    font-weight: 400;
+    float:center;
+}
+
+.btn-white{
+    color: #616467;
+    border: 2px solid #616467;
+    background-color: #FFFFFF;
+    padding-top:16px;
+    letter-spacing: 2px;
+}
+
+#info-footer{
+    color: #c1c3c6;
+    font-size: .7em;
+    text-align:center;
+    font-weight: 400;
+}
+
+.info-footer-link{
+    text-decoration:none;
+    color:#1db954;
+}
+
+/*Estilo da página overview*/
+
+#main-container-ovv{
+    height: 3170px;
+    width: 1349px;
+    background-color: #202B3A;
+}
+
+#usericon{
+    padding: 0px;
+    width: 138.9px;
+    height: 80px;
+    text-align: center;
+}
+
+#usericon-main{
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    border: none;
+    background: none;
+}
+
+#main-content-ovv{
+    height: 444px;
+    width: 1170px;
+    margin: auto;
+    background-image: linear-gradient(to bottom, #121e3d 0%, #000 100%);
+}
+
+#vsc-ovv{
+    height: 2110.16px;
+    width: 1170px;
+    margin: auto;
+}
+
+#container-sidemenu-ovv{
+    height: 2110.16px;
+    width: 292.5px;
+    margin: 0px;
+    background-color: #1B1B1B;
+    float: left;
+}
+
+#menu-user-container{
+    height: 64px;
+    width: 64px;
+    margin: 30px 114.250px;
+}
+
+#user-icon-menu{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#menu-list{
+    font-size: 16px;
+    list-style: none;
+    position: relative;
+    border-bottom-color: rgba(255, 255, 255, 0.05);
+    border-top-color: rgba(0, 0, 0, 0.2);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#cotainer-info-central-ovv{
+    height: 2110.16px;
+    width: 877.5px;
+    background-color: #ffffff;
+    margin: 0px;
+    float: right;
 }
