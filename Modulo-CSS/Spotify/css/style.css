@@ -458,6 +458,23 @@ input[type=checkbox]:checked + label{
 
 #ovv-main-menu-dimensions ul li:last-child{
 	padding-right: 0px;
+	padding-top: 20px;
+	vertical-align: middle;
+}
+
+#ovv-main-menu-dimensions ul li img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 16px;
+	vertical-align: middle;
+}
+
+#ovv-main-menu-dimensions ul li svg{
+	width: 12px;
+    	height: 12px;
+    	margin-left: 6px;
+    	margin-top: 0;
 }
 
 #ovv-content-container{
@@ -563,10 +580,12 @@ input[type=checkbox]:checked + label{
 	background-color: #FFFFFF;
 	box-sizing:border-box;
 	padding: 48px;
+	padding-bottom: 198px;
 	display: inline-block;
 	margin-right: -4px;
 	width: 75%;
 	vertical-align: top;
+	height: 100%;
 }
 
 #ovv-overview h1{
@@ -575,10 +594,16 @@ input[type=checkbox]:checked + label{
 	padding: 0px 0px 1em;
 }
 
+#ovv-overview h3{
+	font-size: 24px;
+	margin-bottom: 16px;
+}
+
 
 #ovv-overview table{
 	font-family: Circular;
 	width: 100%;
+	margin-bottom: 24px;
 }
 
 #ovv-overview table tbody tr{
